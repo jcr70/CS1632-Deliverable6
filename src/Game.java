@@ -61,9 +61,9 @@ public class Game {
             System.out.println("You have achieved 63 points or greater in the upper categories. A bonus of 35 points has been awarded.");
             player.setCategory("Bonus", 35);
         }
-        System.out.println("---------------- END OF GAME ----------------");
+        System.out.println("\n\n---------------- END OF GAME ----------------");
         System.out.println(player.toString());
-        System.out.println("Total Score: " + player.totalScore);
+        System.out.println("\nTotal Score: " + player.totalScore);
     }
 
     public int calculateScore(String category){
